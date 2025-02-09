@@ -4,7 +4,7 @@ package ru.otus.homework.junit;
 import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) throws Exception {//TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+    public static void main(String[] args) throws Exception {
         System.out.println(Arrays.toString(arrAfterLastOne(new int[] {2, 2, 3, 1, 2, 0})));
         System.out.println(onlyOneAndTwo(new int[] {2, 2, 1, 1, 2, 1}));
         System.out.println(onlyOneAndTwo(new int[] {3, 4, 5}));
